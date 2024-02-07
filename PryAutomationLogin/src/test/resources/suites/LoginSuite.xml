@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Suite" parallel="false">
+    <test name="Automation Login">
+        <classes>
+            <!--            <class name="Automation"></class>-->
+            <class name="runners.TestRunner"></class>
+        </classes>
+    </test>
+</suite>
